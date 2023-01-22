@@ -38,7 +38,9 @@ a {
     right: 18px;
     top: 7px;
 }
-
+img {
+    transition: .5s;
+}
 .products img.card-img-top {
     height: 200px;
     object-fit: cover;
