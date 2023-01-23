@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+a.navbar-brand {
+    font-family: 'Rubik 80s Fade', cursive;
+    color: #ffffff;
+}
+a.navbar-brand:hover {
+    color: red;
+}
+a.brand-logo {
+    font-family: 'Rubik 80s Fade', cursive;
+    color: #ffffff;
+    font-size: 70px;
+}
+a.brand-logo:hover {
+    color: red;
+}
+a {
+    text-decoration: none;
+}
+.navbar-section {
+    justify-content: end;
+}
+.navbar img.logo {
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+}
+.navbar1 {
+    background-color: #000000;
+    border-bottom: solid #606060;
+}
+.navbar1 form.search {
+    position: relative;
+}
+
+.navbar1 form.search i.bi.bi-search {
+    position: absolute;
+    right: 18px;
+    top: 7px;
+}
+img {
+    transition: .5s;
+}
+.products img.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    transition: .5s;
+}
+
+.card {
+    overflow: hidden;
+}
+.card:hover img {
+    transform: scale(1.2)
+}
+
+.subscribe input {
+    outline: none;
+    padding: 8px 15px;
+    border: none;
+    margin-right: -5px;
+}
+
+section.footer {
+    background-color: #111111;
+    padding: 60px 0;
+}
+section.footer a.brand-logo img {
+    width: 190px;
+    height: 50px;
+    object-fit: cover;
+}
+section.footer .subscribe button {
+    background-color: red;
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 8px 15px;
+}
+section.copyright {
+    border-top: solid 1px #eeeeee;
+    background-color: #111111;
+    padding: 15px 0;
+}
+
+section.copyright a {
+    color: #7e7e7e;
+}
+
+/* Effe */
+
+.TransIn {
+    opacity: .9;
+    transition: all .3s ease-in-out;
+}
+.TransIn:hover {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+    box-shadow: 1 1 5px rgba(50%, 50%, 50%, 1);
+}
+.products .card {
+    background: #3e3e3e;
+}
+.products img {
+    max-height: 215px;
+}
+.products .category-name {
+    position: absolute;
+    /* background-color: #0000007d; */
+}
+
+.products .category-name p {
+    color: #ffffff;
+    padding: 4px 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.products .card.aio img.img1 {
+    position: relative;
+    top: -29px;
+}
+
+.products .card.aio img.img2 {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    rotate: -6deg;
+    object-fit: unset;
+}
+button.btn.btn-buynow {
+    background: #001ef1;
+    color: #fff;
+    text-transform: uppercase;
+}
+ul.social-links li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+ul.social-links {
+    margin: 0;
+    padding: 0;
+}
+
+ul.social-links li a {
+    color: #ffffff;
+}
+
+ul.social-links li a:hover {
+    color: #cbcbcb;
+}
